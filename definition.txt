@@ -1,0 +1,8 @@
+Task-06
+Renderer
+
+This is used for the render the component to the html.
+Angular provide a functionality to change element reference data and set properties design etc using renderer
+we can also do that using child but that way is not proper so. 
+when we need to change the element desgin and add,remove,update property then we can used the renderer.
+This is need to define in constructor(private renderer:Renderer2){}.
